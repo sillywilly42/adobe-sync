@@ -13,7 +13,7 @@ import sys
 import time
 from urllib import urlencode
 
-import jwt  # pip install --upgrade jwt
+import jwt  # pip install --upgrade PyJWT
 # On macOS:
 # pip install --upgrade python-ldap --global-option=build_ext \
 #                                   --global-option="-I$(xcrun --show-sdk-path)/usr/include/sasl"
